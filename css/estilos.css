@@ -111,11 +111,15 @@ main {
 }
 
 .box-1 {
+  background-image: url("../images/bg-pattern-quotation.svg");
   background-color: #7541c8;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: box1;
+  background-position: 80% 0%;
+  background-repeat: no-repeat;
+  background-size: 25% 40%;
 }
 
 .box-2 {
